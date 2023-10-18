@@ -154,12 +154,11 @@ const book = getBook(1);
 
 // mutliples
 
-const { title, author, rating, genres,pages} = book;
+const { title, author, rating, genres } = book;
 author;
 rating;
 title;
 genres;
-pages
 
 // or this way
 
@@ -193,16 +192,6 @@ const updatedBook = {
   moviePublicationDate: 2001 - 12 - 19,
   //overwriting an existing property
   pages: 1210,
-
 };
 
 updatedBook;
-
-// creating a string that will contain the summery of objects
-
-
-const summary = `${title} a ${pages}-page long book, was wroitten by ${author} and publised in 
-${publicationDate} ` ;
-
-summary;
-
